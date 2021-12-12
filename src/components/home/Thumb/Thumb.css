@@ -1,0 +1,21 @@
+.thump{
+    width:340px;
+    height:340px;
+    border-radius: 10px;
+    position: relative;
+    background-size: cover;
+}
+.title{
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: 50%;
+}
+@media screen and (max-device-width : 480px) {
+    .thump{
+        height:255px;
+        width:335px;
+    }
+}
