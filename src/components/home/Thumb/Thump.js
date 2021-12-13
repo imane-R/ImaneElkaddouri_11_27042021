@@ -3,12 +3,12 @@ import { Component } from 'react';
 export default class Thump extends Component {
     constructor(props) {
         super(props);
-        this.tilte = props.tilte;
+        this.title = props.title;
         this.image = props.image;
     }
     render() {
-        return <div className='thump' style={{ backgroundImage: `url(${this.image})` }}>
-            <div className='title'> {this.tilte}</div>
+        return <div className='Thump' style={{ backgroundImage: `url(${this.image})` }}>
+            <div className='title'> {this.title}</div>
         </div>
     }
 }

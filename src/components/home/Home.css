@@ -1,0 +1,18 @@
+.Home .thumbs-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px;
+    justify-content: center;
+    padding: 56px 50px;
+    background: #F6F6F6;
+    border-radius: 25px;
+  }
+  @media screen and (max-device-width : 480px) {
+    .Home .thumbs-container{
+      background: none;
+      padding: 0;
+      gap: 20px;
+    }
+  }
+  

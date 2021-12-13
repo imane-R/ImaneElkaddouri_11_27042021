@@ -1,16 +1,16 @@
-.banner {
+.Banner {
     height: 223px;
     border-radius: 15px;
     text-align: center;
     background-size: cover;
 }
-.opacity {
+.Banner .opacity {
     background-color: black;
     opacity: 0.3;
     border-radius: 15px;
     height: 100%;
 }
-.message-banner {
+.Banner .message-banner {
     font-size: 48px;
     color: white;
     height: 100%;
@@ -20,7 +20,7 @@
     position: relative;
     z-index: 1;
 }
-.message-banner .opacity {
+.Banner .message-banner .opacity {
     position: absolute;
     z-index: -1;
     background-color: black;
@@ -30,17 +30,17 @@
     border-radius: 15px;
 }
 @media screen and (max-device-width : 480px) {
-    .banner{
+    .Banner {
         height: 111px;
         width: 335px;
     }
-    .message-banner {
+    .Banner .message-banner {
         font-size: 24px;
         text-align: left;
         padding-left: 16px;
         padding-right: 102px;
     }
-    .message-banner .opacity{
+    .Banner .message-banner .opacity{
         margin-left: -16px;
     }
 }
