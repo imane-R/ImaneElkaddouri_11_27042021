@@ -3,23 +3,26 @@ import { Component } from 'react';
 import Logo from './logo.png';
 
 export default class Header extends Component {
-    render(){
+
+    render() {
         return <header>
             <div>
-                <img src={Logo} alt = 'logo' />
+                <img src={Logo} alt='logo' onClick={ () => {
+                    window.location.href= '/';
+                }} />
             </div>
             <div>
                 <ul>
                     <li>
-                      <a href='/'>Accueil</a>  
+                        <a href='/'>Accueil</a>
                     </li>
                     <li>
-                      <a href='/'>A Propos</a> 
+                        <a href='/about'>A Propos</a>
                     </li>
                 </ul>
             </div>
-            
+
         </header>
     }
-    
+
 }

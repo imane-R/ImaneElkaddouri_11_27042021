@@ -1,11 +1,11 @@
-.thump{
+.Thump{
     width:340px;
     height:340px;
     border-radius: 10px;
     position: relative;
     background-size: cover;
 }
-.title{
+.Thump .title{
     font-size: 18px;
     color: white;
     position: absolute;
@@ -14,7 +14,7 @@
     width: 50%;
 }
 @media screen and (max-device-width : 480px) {
-    .thump{
+    .Thump{
         height:255px;
         width:335px;
     }

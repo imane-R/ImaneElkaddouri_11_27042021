@@ -9,7 +9,7 @@ export default class Spacer extends Component {
         };
     }
     render() {
-        return <div className="spacer" style={{ height: `${this.state.responsiveHeight}px` }}></div>
+        return <div className="Spacer" style={{ height: `${this.state.responsiveHeight}px` }}></div>
     }
     componentDidMount() {
         window.addEventListener('resize', this.updateDimensions);

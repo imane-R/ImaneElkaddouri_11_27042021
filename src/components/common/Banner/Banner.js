@@ -9,7 +9,7 @@ export default class Banner extends Component {
     }
 
     render() {
-        return <div className = 'banner' style={{ backgroundImage: `url(${this.bgImage})` }}>
+        return <div className = 'Banner' style={{ backgroundImage: `url(${this.bgImage})` }}>
             
             <div className = 'message-banner'> 
             <div className = 'opacity'></div> 
