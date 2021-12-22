@@ -1,3 +1,6 @@
+.Collapse{
+    width: 100%;
+}
 .Collapse .header{
     height: 47px;
     background: #FF6060;
@@ -9,11 +12,37 @@
     flex-direction: column;
     padding: 0 18px;
     cursor: pointer;
+    position: relative;
 }
 .Collapse .body{
-    font-size: 24px;
-    padding: 36px 18px 19px 18px;
+    font-size: 18px;
+    padding: 1px 18px 19px 18px;
     background: #F7F7F7;
     color: #FF6060;
     font-weight: normal;
+}
+.Collapse .arrow{
+    height: 14px;
+    position: absolute;
+    right: 11px;
+}
+.Collapse li{
+    text-align: right;
+    width: fit-content;
+    font-size: 18px;   
+}
+.Collapse .arrow.up {
+    transform: rotate(0deg);
+}
+.Collapse .arrow.down {
+    transform: rotate(180deg);
+}
+@media screen and (max-device-width : 480px) {
+    .Collapse .header{
+        width:90%;
+        font-size: 13px;
+    }
+    .Collapse .body{
+        font-size: 12px;
+    }
 }

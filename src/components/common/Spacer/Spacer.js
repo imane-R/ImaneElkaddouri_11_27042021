@@ -20,9 +20,8 @@ export default class Spacer extends Component {
 
 
     updateDimensions = () => {
-        console.log('updateDimensions')
-        this.setState({
-            responsiveHeight : this.height  * window.innerWidth / 1680
-        });
+        this.setState((state, props) => ({
+            responsiveHeight : props.height  * window.innerWidth / 1680
+        }));
     }
 }
