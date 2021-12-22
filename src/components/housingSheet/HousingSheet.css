@@ -1,0 +1,54 @@
+.HousingSheet .HousingSheet-collapse {
+    display: flex;
+    column-gap: 7%;
+}
+.HousingSheet .title {
+    font-size: 36px;
+    color: #ff6060;
+    margin: 0;
+}
+.HousingSheet .location {
+    font-size: 18px;
+    color: #ff6060;
+}
+.tile-host {
+    display: flex;
+    justify-content: space-between;
+}
+.HousingSheet .equipments {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+}
+.equipments .equipment {
+    text-align: left;
+    list-style-type: none;
+}
+.HousingSheet .tags-ratings {
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-device-width: 480px) {
+    .HousingSheet{
+        position: relative;
+    }
+    .HousingSheet .title {
+        font-size: 18px;
+    }
+    .tile-host {
+        display: block;
+    }
+    .HousingSheet .tags-ratings {
+        display: block;
+    }
+    .HousingSheet .HousingSheet-collapse {
+        display: block;
+    }
+    .HousingSheet .location {
+        font-size: 14px;
+    }
+    .equipments .equipment {
+        font-size: 12px;
+    }
+    
+}

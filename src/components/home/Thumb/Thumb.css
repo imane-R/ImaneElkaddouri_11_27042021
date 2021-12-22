@@ -4,6 +4,7 @@
     border-radius: 10px;
     position: relative;
     background-size: cover;
+    cursor: pointer;
 }
 .Thump .title{
     font-size: 18px;

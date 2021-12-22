@@ -1,3 +1,8 @@
 .collapse-container {
     padding: 0 108px;
 }
+@media screen and (max-device-width : 480px) {
+    .collapse-container {
+        padding: 0 ;
+    }
+}

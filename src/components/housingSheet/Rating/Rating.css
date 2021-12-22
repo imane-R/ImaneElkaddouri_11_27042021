@@ -1,0 +1,13 @@
+.rating-star{
+    width: 30px;
+}
+@media screen and (max-device-width: 480px) {
+    .Rating{
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+   .Rating .rating-star{
+        width: 15px;
+        height: 15px;
+    }  
+}

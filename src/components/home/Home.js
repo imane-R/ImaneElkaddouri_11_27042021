@@ -11,11 +11,12 @@ class Home extends Component {
     return (
         <div className="Home">
           <Spacer height="63" />
-          <Banner bgImage={bannerBg} message="Chez vous, partout et ailleurs" />
+          <Banner bgImage={bannerBg} message="Chez vous, partout et ailleurs"  />
           <Spacer height="43" />
           <div className='thumbs-container'>
-            {advertisements.map(e => <Thump key={e.id} title={e.title} image={e.cover} />)}
+            {advertisements.map(e => <Thump key={e.id} title={e.title} image={e.cover} id={e.id}/>)}
           </div>
+          <Spacer height="43" />
         </div>
     );
   }
