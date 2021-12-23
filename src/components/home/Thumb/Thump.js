@@ -1,5 +1,6 @@
 import './Thumb.css';
 import { Component } from 'react';
+import { Link } from 'react-router-dom';
 export default class Thump extends Component {
     constructor(props, context) {
         super(props);
@@ -8,10 +9,10 @@ export default class Thump extends Component {
         this.id = props.id
     }
     render() {
-        return <div className='Thump' style={{ backgroundImage: `url(${this.image})` }} onClick={ () => {
-            window.location.href= `/housingSheet/${this.id}`;
-        }} >
-            <div className='title'> {this.title}</div>
-        </div>
+        return <Link to={`/housingSheet/${this.id}`}>
+            <div className='Thump' style={{ backgroundImage: `url(${this.image})` }}>
+                <div className='title'> {this.title}</div>
+            </div>
+        </Link>
     }
 }
