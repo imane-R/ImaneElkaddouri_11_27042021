@@ -8,16 +8,20 @@ export default class Header extends Component {
         return <header>
             <div>
                 <Link to="/">
-                    <img src={Logo} alt='logo'/>
+                    <img src={Logo} alt='logo' />
                 </Link>
             </div>
             <div>
                 <ul>
                     <li>
-                        <a href='/'>Accueil</a>
+                        <Link to="/">
+                            Accueil
+                        </Link>
                     </li>
                     <li>
-                        <a href='/about'>A Propos</a>
+                        <Link to="/about">
+                            A Propos
+                        </Link>
                     </li>
                 </ul>
             </div>
