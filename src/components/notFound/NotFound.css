@@ -8,9 +8,26 @@
     text-align: center;
     color: #FF6060;
 }
-.NotFound .linkToHome{
+ .linkToHome a  {
+     display: block;
     font-size: 18px;
     text-align: center;
     color: #FF6060;
     text-decoration:underline;
+}
+@media screen and (max-device-width: 480px) {
+    .NotFound .error404{
+        margin-top: 150px;
+        font-size: 96px;
+    }
+    .NotFound .error-message{
+        margin-bottom: 80px;
+        font-size: 18px;
+    }
+    .NotFound .linkToHome a {
+        font-size: 14px;
+        text-align: center;
+        color: #FF6060;
+        text-decoration:underline;
+    }
 }

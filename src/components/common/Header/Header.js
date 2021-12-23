@@ -1,15 +1,15 @@
 import './Header.css'
 import { Component } from 'react';
 import Logo from './logo.png';
-
+import { Link } from 'react-router-dom';
 export default class Header extends Component {
 
     render() {
         return <header>
             <div>
-                <img src={Logo} alt='logo' onClick={ () => {
-                    window.location.href= '/';
-                }} />
+                <Link to="/">
+                    <img src={Logo} alt='logo'/>
+                </Link>
             </div>
             <div>
                 <ul>
