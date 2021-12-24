@@ -2,7 +2,9 @@
     display: flex;
     justify-content: left;
     column-gap: 2%;
+    gap: 5px;
     padding-left: 0;
+    flex-wrap: wrap;
 }
 .tag {
     background-color: #FF6060;

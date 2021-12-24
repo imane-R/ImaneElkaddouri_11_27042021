@@ -1,8 +1,17 @@
 .collapse-container {
     padding: 0 108px;
 }
+.Banner-phone{
+    display: none;
+}
 @media screen and (max-device-width : 480px) {
     .collapse-container {
         padding: 0 ;
+    }
+    .Banner-desktop{
+        display: none;
+    }
+    .Banner-phone{
+        display: block;
     }
 }

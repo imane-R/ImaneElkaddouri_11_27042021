@@ -10,7 +10,12 @@ export default class About extends Component {
         return (
             <div className="Home">
                 <Spacer height="63" />
+                <div className='Banner-desktop'>
                 <Banner bgImage={bannerBg} />
+                </div>
+                <div className='Banner-phone'>
+                <Banner bgImage={bannerBg} height="223" />
+                </div>
                 <Spacer height="43" />
                 <div className="collapse-container">
                     <Collapse title="Fiabilité">
