@@ -11,7 +11,7 @@
     font-size: 18px;
     color: #ff6060;
 }
-.tile-host {
+.title-host{
     display: flex;
     justify-content: space-between;
 }
@@ -28,6 +28,9 @@
     display: flex;
     justify-content: space-between;
 }
+.rating-host-phone{
+    display: none;
+}
 @media screen and (max-device-width: 480px) {
     .HousingSheet{
         position: relative;
@@ -35,8 +38,9 @@
     .HousingSheet .title {
         font-size: 18px;
     }
-    .tile-host {
-        display: block;
+    .rating-host-phone {
+        display: flex;
+        justify-content: space-between;
     }
     .HousingSheet .tags-ratings {
         display: block;
@@ -49,6 +53,12 @@
     }
     .equipments .equipment {
         font-size: 12px;
+    }
+    .host-desktop {
+        display: none;
+    }
+    .tags-ratings .Rating{
+        display: none;
     }
     
 }

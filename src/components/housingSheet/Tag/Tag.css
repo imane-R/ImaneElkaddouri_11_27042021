@@ -24,5 +24,6 @@
         font-size: 10px;
         height: 15px;
         padding: 2px 7px;
+        width: fit-content;
     }
 }

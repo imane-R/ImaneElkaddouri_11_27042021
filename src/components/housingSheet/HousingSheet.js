@@ -24,15 +24,22 @@ class HousingSheet extends Component {
                     <Spacer height="37" />
                     <Carrousel pictures={this.currentAdvertisements.pictures} />
                     <Spacer height="43" />
-                    <div className='tile-host'>
+                    <div className='title-host'>
                         <h1 className='title'>{this.currentAdvertisements.title}</h1>
-                        <Host host={this.currentAdvertisements.host} />
+                        <div className='host-desktop'>
+                           <Host host={this.currentAdvertisements.host} />
+                        </div>
                     </div>
                     <div className='location'>{this.currentAdvertisements.location}</div>
                     <div className='tags-ratings'>
                         <Tag tags={this.currentAdvertisements.tags} />
                         <Rating rating={this.currentAdvertisements.rating} />
                     </div>
+                    <div className='rating-host-phone'>
+                        <Rating rating={this.currentAdvertisements.rating} />
+                        <Host host={this.currentAdvertisements.host} />
+                    </div>
+                    <Spacer height="43" />
                     <div className='HousingSheet-collapse'>
                         <Collapse title="Description" >
                             <p>{this.currentAdvertisements.description}</p>

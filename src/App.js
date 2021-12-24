@@ -24,8 +24,8 @@ class App extends Component {
             <Route path="*" element={<NotFound />} />
             <Route path='/housingSheet/:id' element={<HousingSheet />} />
           </Routes>
-          <Footer />
         </div>
+        <Footer />
       </BrowserRouter>
     );
   }
