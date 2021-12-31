@@ -1,6 +1,7 @@
 import './Collapse.css';
 import { Component } from 'react';
 import  arrow from './arrow.png';
+
 export default class Collapse  extends Component {
     constructor(props) {
         super(props);

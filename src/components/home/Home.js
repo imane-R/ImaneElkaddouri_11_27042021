@@ -7,6 +7,7 @@ import Thump from './Thumb/Thump';
 import advertisements from '../../data/advertisements';
 
 class Home extends Component {
+
   render() {
     return (
         <div className="Home">
