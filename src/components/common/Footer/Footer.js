@@ -6,8 +6,8 @@ export default class Footer extends Component {
         return <footer>
             <div className='logo'>
                 <img src={logo} alt = 'logo' />
-            </div>
-            <div>
+            </div>         
+              <div>
                 <div className='text-footer'>© 2020 Kasa. All rights reserved</div>
             </div>
             

@@ -2,6 +2,7 @@ footer{
     position: relative;
     height: 209px; 
     background: #000000;
+    width: 100% !important;
 }
 footer .logo{
    text-align: center;
@@ -11,4 +12,10 @@ footer .text-footer{
     color: #fff;
     font-size: 24px;
     text-align: center;
+}
+@media screen and (max-device-width : 480px) {
+    footer .text-footer{
+        font-size: 14px;
+        margin-top: 30px;
+    }
 }

@@ -16,9 +16,6 @@
 @media screen and (max-device-width: 480px) {
     .Host {
         display: flex;
-        position: absolute;
-        right: 20px;
-        top: 371px;
     }
     .Host .host-image {
         
