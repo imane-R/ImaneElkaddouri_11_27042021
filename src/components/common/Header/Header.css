@@ -11,10 +11,10 @@ header ul{
     display: flex;
     justify-content: space-between;
     list-style-type: none; 
+    gap: 80px;
 }
 header li {
     text-align: right;
-    width: 150px;
     
 }
 header a{
@@ -25,16 +25,19 @@ header a{
 }
 .activeLink{
     border-bottom: 2px solid #FF6060;
-    width: fit-content;margin-left: 40px;
+    width: fit-content;
 }
 @media screen and (max-device-width : 480px) {
     header{
-        height: 47px;
+        height: 46px;
     }
     header li{
-        width: 70px;
+        width: 60px;
     }
     header a{
         font-size: 12px;
+    }
+    header ul {
+       gap: 22px;
     }
 }
